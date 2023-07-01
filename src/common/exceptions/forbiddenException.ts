@@ -1,4 +1,4 @@
-import { RESPONSE_MESSAGES } from "../../constants/message-types.enum";
+import { RESPONSE_MESSAGES } from "../constants/message-types.enum";
 import { CustomException } from "./customException";
 
 export class ForbiddenException extends CustomException {

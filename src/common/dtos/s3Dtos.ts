@@ -1,7 +1,7 @@
 import { IsBoolean, IsString } from "class-validator";
 import "reflect-metadata" // important for class transformer
 
-export class GameTypeAfterInsertionToS3 {
+export class InsertionToS3Dto {
     @IsBoolean()
     success: boolean
 

@@ -1,4 +1,4 @@
-import { RESPONSE_MESSAGES } from "../../constants/message-types.enum";
+import { RESPONSE_MESSAGES } from "../constants/message-types.enum";
 
 export class CustomException extends Error {
     statusCode: number

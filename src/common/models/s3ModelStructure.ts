@@ -11,7 +11,7 @@ export class S3Model {
         this.bucketName = bucketName;
     }
 
-    async save(Key: string, Body: any, ContentType: string = "text/plain"): Promise<S3Dtos.GameTypeAfterInsertionToS3> {
+    async save(Key: string, Body: any, ContentType: string = "text/plain"): Promise<S3Dtos.InsertionToS3Dto> {
         const params = {
             Bucket: this.bucketName,
             Key,
