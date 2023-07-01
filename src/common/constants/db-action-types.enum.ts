@@ -1,0 +1,11 @@
+export enum ACTION_API_TYPES {
+    READ = "READ",
+    CREATE = "CREATE",
+    UPDATE = "UPDATE",
+    DELETE = "DELETE"
+}
+
+export enum ACTION_CATEGORIES {
+    SINGLE = "SINGLE",
+    MULTIPLE = "MULTIPLE"
+}
